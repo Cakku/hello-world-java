@@ -37,7 +37,7 @@
     <junit printsummary="true" haltonfailure="false">
         <formatter type="xml" usefile="true"/>
         <classpath refid="classpath.test" />
-        <batchtest fork="yes" todir="${junit.output.dir}">
+        <batchtest fork="no" todir="${junit.output.dir}">
             <fileset dir="${src.dir}">
                 <include name="*.java"/>
             </fileset>
